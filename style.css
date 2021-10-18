@@ -3,20 +3,39 @@
 *::after {
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 header{
+    display: flex;
     height: 30px;
+    width: 1350px;
     background-color: #1F2937;
-
 }
 .header_logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
-a{
+header a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+.main_top{
+    display: flex;
+    background-color: #1F2937;
+    height: 300px;
+    width: 1350px;
+}
+
+.main_top span{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
    
