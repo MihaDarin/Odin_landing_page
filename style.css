@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
 }
 body{
     display: flex;
@@ -12,14 +13,23 @@ body{
 
 header{
     display: flex;
-    height: 30px;
-    width: 1350px;
+    height: 166px;
+    width: 1440px;
     background-color: #1F2937;
+    gap: 450px;
+    justify-content: center;
+    padding-top: 20px;
 }
 .header_logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+.links{
+    display: flex;
+    margin-right: 10px;
+    width: 434px;
+    justify-content: space-between;
 }
 header a{
     text-decoration: none;
@@ -28,14 +38,21 @@ header a{
 }
 .main_top{
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    height: 300px;
-    width: 1350px;
+    height: 370px;
+    width: 1440px;
 }
-
 .main_top span{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
 }
+.main_top input{
+    height: 20px;
+}
    
+img{
+    width: 525px;
+    height: 240px;
+}
