@@ -9,8 +9,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: black;
 }
-
 header{
     display: flex;
     height: 166px;
@@ -74,8 +74,74 @@ main{
     font-size: 18px;
     border-color: transparent;
 }
-   
-img{
+.image_1{
     width: 525px;
     height: 240px;
+}
+.main_content{
+    display: flex;
+    height: 1275px;
+    width: 1440px;
+    flex-direction: column;
+    background-color: white;
+}
+.some_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.some_info .info_head{
+   font-size: 36px;
+   font-weight: bold;
+   color: #1F2937;
+   margin-top: 55px;
+}
+.info_images{
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+}
+.item_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 170px;
+    margin-top: 57px;
+}
+.parag{
+    height: 170px;
+    width: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+.image_subtext{
+    text-align: center;
+    color: #272626e8;
+    font-size: 20px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    margin-top: 120px;
+    background-color: #E5E7EB;
+    padding: 0 20px 0 20px;
+}
+.quote_text{
+    font-size: 36px;
+    font-style:  italic;
+    color: #1F2937;
+    height: 170px;
+    width: 790px;
+}
+.quote_author{
+    display: flex;
+    justify-content: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+    width: 790px;
 }
