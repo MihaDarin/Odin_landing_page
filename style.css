@@ -145,3 +145,39 @@ main{
     color: #1F2937;
     width: 790px;
 }
+.main_footer{
+    display: flex;
+    justify-content: center;
+}
+.main_footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    width: 1025px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #3882F6;
+}
+.action_text{
+    color: #F9FAF8;
+}
+.action_text h2{
+    font-size: 26px;
+}
+.action_text span{
+    font-size: 22px;
+}
+.action_button{
+    height: 38px;
+    width: 131px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid white;
+}
+
